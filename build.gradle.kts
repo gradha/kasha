@@ -30,4 +30,7 @@ kotlin {
         val nativeMain by getting
         val nativeTest by getting
     }
+    dependencies {
+        commonMainImplementation("com.squareup.okio:okio:3.2.0")
+    }
 }
